@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Calculator </title>
+</head>
+
+<body bgcolor="#87CEFA">
+   <table class="center">
+       <tr>
+           <br><td> &nbsp; &nbsp; <b> <i> <u> HTML Calculator </u> </b> </i> </td>
+       </tr>
+   </table>
+<div class="calculator">
+<form name="calculator">
+
+<input type="textfield" name="ans" class="c" value=""> &nbsp; &nbsp;
+<input type="reset" class="btn" value="C">
+<br><br>
+
+<input type="button" class="btn" value="7" onclick="document.calculator.ans.value+='7'"> &nbsp;
+<input type="button" class="btn" value="8" onclick="document.calculator.ans.value+='8'"> &nbsp; 
+<input type="button" class="btn" value="9" onclick="document.calculator.ans.value+='9'"> &nbsp;
+<input type="button" class="btn" value="/" onclick="document.calculator.ans.value+='/'"> &nbsp; <br><br>
+<input type="button" class="btn" value="4" onclick="document.calculator.ans.value+='4'"> &nbsp;
+<input type="button" class="btn" value="5" onclick="document.calculator.ans.value+='5'"> &nbsp;
+<input type="button" class="btn" value="6" onclick="document.calculator.ans.value+='6'"> &nbsp;
+<input type="button" class="btn" value="-" onclick="document.calculator.ans.value+='-'"> &nbsp;<br><br>
+<input type="button" class="btn" value="1" onclick="document.calculator.ans.value+='1'"> &nbsp;
+<input type="button" class="btn" value="2" onclick="document.calculator.ans.value+='2'"> &nbsp;
+<input type="button" class="btn" value="3" onclick="document.calculator.ans.value+='3'"> &nbsp;
+<input type="button" class="btn" value="+" onclick="document.calculator.ans.value+='+'"> &nbsp;<br><br>
+<input type="button" class="btn" value="*" onclick="document.calculator.ans.value+='*'"> &nbsp;
+<input type="button" class="btn" value="0" onclick="document.calculator.ans.value+='0'"> &nbsp; &nbsp;
+<input type="button" class="btn" value="." onclick="document.calculator.ans.value+='.'"> &nbsp;
+<input type="button" class="btn" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+</div>
+</div>
+</form>
+</body>
+</html>
